@@ -1,0 +1,18 @@
+// .default-container{
+//   padding: 10px;
+// }
+.common-input-width{
+  input{
+    max-width: 217px;
+  }
+}
+.common-limit-input {
+  max-width: 240px;
+  /deep/ .el-input__inner {
+    padding-right: 45px;
+  }
+}
+.el-message-box{
+  max-height: 80%;
+  overflow: auto;
+}
